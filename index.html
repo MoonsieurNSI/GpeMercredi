@@ -5,50 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style2.css">
+    <script src="./javascript/script.js" async></script>
 </head>
 <body>
 
     <h1 class="t1"> Jouons avec JS et les éléments HTML interactifs</h1>
     <h1 class="t2"> Voici un second titre</h1>
     <form action="">
-        <input type="range" name="range" id="range" value="25">
-        <input type="button" value="Clique" id="btn">
+        <input type="range" name="range" id="range" value="100">
+        <input type="button" value="Appuyez ICI" id="btn">
         <input type="checkbox" name="box" id="box">
-        <input type="text" name="text" id="text" value="patrice">
+
+        <input type="text" name="text" id="text" value="patrice"> 
     </form>
 
-    <script>
-    let titre = document.querySelector(".t2");
-    let titre1 = document.querySelector(".t1");
-
-    titre1.addEventListener("click", function(){
-            titre1.innerHTML = "titre changé";
-            
-    });
-
-    //console.log(titre.value);
     
-    //let curseur = document.getElementById("range");
-    //console.log(curseur.value);
-    
-    let pression = false;
-
-    let bouton = document.getElementById("btn"); 
-    bouton.addEventListener("click", function(){
-
-        if(pression == false)
-        {titre.style.color = "red";
-        titre.style.fontSize = "50px";
-         pression = true;   
-        }
-        else {
-        titre.style.color = "blue";
-         pression = false;   
-        }
-
-    }); 
-
-         
-    </script>
 </body>
 </html>

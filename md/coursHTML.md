@@ -74,7 +74,7 @@ Il existe plus de 500 propriétés et encore davantage de valeurs possibles mais
     - `%` relatif à la taille du contenant
 
 
-Rem: Qannd le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
+Rem: Quand le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
 
 Pour différencier des éléments de même nature, on peut utiliser l'attribut `class` ou `id`. Dans ce cas, le sélecteur est le nom de la classe précédé d'un `.` ou le nom de l'identifiant précédé d'un `#`.
 
