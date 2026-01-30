@@ -44,4 +44,8 @@
 - ls => Le nom Dossier1 apparait surligné en vert
 - cd ./Dossier1
 - pwd
+- touch ./fic1.txt
+- cd ../ ou cd /workspaces/GpeMercredi
+- ls -F ajoute un slash après les dossiers
+- cp ./Dossier1/fic1.txt ./Dossier1/fic2.txt puis cp ./Dossier1/fic1.txt ./fic3.txt
 
