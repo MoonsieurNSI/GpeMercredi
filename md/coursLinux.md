@@ -160,3 +160,11 @@ pour les exécuter : `python ./monFichier.py`
 
 Le *File Globbing* : la recherche de fichiers avec une *wildcard*
 
+On peut agir (`find`, `cp`, `rm`, ...) sur des fichiers sans en connaître le nom exact.
+
+|wildcard|signification|exemple|
+|----|----|----|
+|`*`|autant de cararctère que l'on veut| `ls f*`|
+|`?`|exactement un caractère|`ls file?.txt`|
+|[arq] ou [a-r]|un des caractères dans la liste|`ls file[arq]*`|
+|`[!a-r]`|un caractère qui n'est pas dans la liste|`ls file[!arq]*`|
